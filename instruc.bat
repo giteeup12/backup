@@ -1,0 +1,2 @@
+cls
+type instruc.txt 
