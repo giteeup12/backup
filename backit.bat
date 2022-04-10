@@ -1,8 +1,10 @@
 ECHO ABOUT TO BACKUP ...
 PAUSE
+TIME /T
 TIME /T > BACKTIME.TXT
-xcopy C:\jimnew\jimdoc\*.* D:\jimnew\jimdoc /YS
+xcopy C:\jimnew\jimdoc\*.* D:\jimnew\jimdoc /YSR
 TIME /T >> BACKTIME.TXT
-xcopy C:\Users\Jim\Music\*.* D:\Music /YS
+xcopy C:\Users\Jim\Music\*.* D:\Music /YSR
 TIME /T >> BACKTIME.TXT
 TIME /T
+
