@@ -9,4 +9,5 @@ xcopy C:\Users\Jim\Music\*.* D:\Music /YSR
 TIME /T >> BACKTIME.TXT
 TIME /T
 TYPE BACKTIME.TXT
+TYPE BACKTIME.TXT
 
